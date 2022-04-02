@@ -1,0 +1,88 @@
+.books{
+    color: white;
+    height: 90.8vh;
+
+}
+.wrap{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 90.8vh;
+}
+
+.left-books{
+    color: black;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.left-books .book-search{
+    width: 80%;
+    margin: auto;
+    float: left;
+}
+
+.book-search-title{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+
+.book-search .underline{
+    background-color: rgba(6, 6, 6, 0.289);
+    height: 1px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.search button{
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #248eff;
+    border: 1px solid #248eff;
+    color: white;
+    font-size: 17px;
+    border-radius: 0px;
+}
+
+.search button:hover{
+    cursor: pointer;
+    background-color: #0040ff;
+}
+
+
+.search input{
+    padding: 14px 15px;
+    width: 70%;
+    font-size: 17px;
+    border:1px solid #0040ff;
+}
+
+.search input:focus{
+    outline: #0040ff;
+    caret-color: #0040ff;
+}
+
+.right-book{
+    width: 80%;
+}
+
+.right-book img{
+    width: 100%;
+}
+
+.search-book{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    text-align: center;
+}

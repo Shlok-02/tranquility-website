@@ -38,10 +38,10 @@
 
 .navbarList .row:hover{
     cursor: pointer;
-    color: #e8ec21;
+    color: #248eff;
    
 }
 
 .navbarList #active{
-    color: #e8ec21;
+    color: #007bff;
 }
