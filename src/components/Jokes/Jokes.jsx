@@ -18,6 +18,7 @@ const Jokes = () => {
 		const data = await response.json()
 		console.log(data)
         setBase(data.setup);
+
         setDelivery(data.delivery);
     }
 
